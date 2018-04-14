@@ -26,5 +26,44 @@ namespace Maquette.Controllers
 
             return View();
         }
+
+        public ActionResult Location()
+        {
+            ViewBag.Message = "Your application description page.";
+
+            return View();
+        }
+
+        public ActionResult Music()
+        {
+            ViewBag.Message = "Your application description page.";
+
+            return View();
+        }
+
+        public ActionResult Gallery()
+        {
+            ViewBag.Message = "Your application description page.";
+
+            return View();
+        }
+
+        public ActionResult Message()
+        {
+            ViewBag.Message = "Your application description page.";
+
+            return View();
+        }
+
+        public ActionResult Parameters()
+        {
+            ViewBag.Message = "Your application description page.";
+
+            return View();
+        }
+
+
+
+
     }
 }
