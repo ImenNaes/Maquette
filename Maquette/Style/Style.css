@@ -348,3 +348,166 @@ li a {
         margin-bottom: 100px !important;
     }
 }
+
+@media screen and (max-width: 400px) {
+    #two {
+        float: left;
+    }
+
+    .row-one{
+        margin-left: 65px;
+    }
+
+    nav.navbar.navbar-expand-sm {
+        text-align: center;
+        width: 36%;
+        margin-left: 136px;
+    }
+    .meteo-video {
+        margin-left: 6% !important;
+    }
+
+    .wrapper-global {
+        margin-left: -20%;
+    }
+
+    video.rounded {
+        margin-left: 10px !important;
+    }
+
+    .weather {
+        margin-left: 10px !important;
+    }
+}
+
+@media screen and (max-width: 411px) {
+    #two {
+        float: left;
+    }
+
+    .son {
+        margin-bottom: 16%;
+    }
+
+    .wrapper.wrapper-global {
+        margin-left: -20%;
+    }
+    /*.meteo-video {
+        margin-left: 60%;
+    }*/
+
+    /*.row-one {
+        margin-left: 85px;
+    }*/
+
+    nav.navbar.navbar-expand-sm {
+        text-align: center;
+        width: 36%;
+        margin-left: 136px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    /*.row-one {
+        margin-left: 34px;
+    }*/
+    .wrapper.wrapper-global {
+        margin-left: -20% !important;
+    }
+
+}
+
+@media screen and (max-width: 414px) {
+    #two {
+        float: left;
+    }
+
+    .row-one {
+        margin-left: 85px;
+    }
+
+    nav.navbar.navbar-expand-sm {
+        text-align: center;
+        width: 36%;
+        margin-left: 136px;
+    }
+
+    .wrapper.wrapper-global {
+        margin-left: -19%;
+    }
+
+    .son {
+        margin-bottom: 15%;
+    }
+    /*.meteo-video {
+        margin-left: 10%;
+    }*/
+    video.rounded {
+        margin-left: -18%;
+    }
+    .weather {
+        margin-left: -45%;
+    }
+
+    .wrapper-card {
+       
+        margin-left: -13% !important;
+    }
+}
+@media screen and (max-width: 375px) {
+    .weather {
+        margin-left: 10px;
+    }
+    video.rounded {
+        margin-left: 10px;
+    }
+}
+@media screen and (max-width: 360px) {
+    .wrapper.wrapper-global {
+        margin-left: -72px;
+    }
+}
+    @media screen and (max-width: 768px) {
+        /*.row-one {
+        margin-left: 41px;
+    }*/
+
+        #two {
+            float: left;
+        }
+
+        /*.row-one {
+        margin-left: 85px;
+    }*/
+
+        .nav-item {
+            width: 110px !important;
+        }
+
+        .video {
+            /* width: 88%; */
+            margin-left: 56px;
+        }
+
+        .meteo-video {
+            margin-left: 26%;
+        }
+
+        .row-one {
+            margin-left: 28%;
+        }
+    }
+
+    @media screen and (max-width: 1024px) {
+        .wrapper.wrapper-card {
+            margin-left: 13%;
+        }
+
+        .calendar-wrapper {
+            margin-top: 34px;
+        }
+
+        #btnPrev, #btnNext {
+            top: 72% !important;
+        }
+    }

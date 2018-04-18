@@ -10,6 +10,18 @@
     <link href="~/Content/font-awesome.min.css" rel="stylesheet" />
     <script src="~/Scripts/Calender.js"></script>
 
+    <style type="text/css">
+        _:-ms-fullscreen, :root audio {
+            width: 70%;
+            height: 23px;
+        }
+
+        _:-ms-fullscreen, :root #divCal {
+            margin-top: -22%;
+        }
+
+    </style>
+
 </head>
 
 
@@ -19,7 +31,7 @@
     <div class="wrapper wrapper-global">
         @*Left Side *@
         @*Card with circle image and calender*@
-        <div id="one">
+        <div id="one" class="row-one">
 
             <div class="wrapper wrapper-card">
                 <div class="circle-image">
@@ -57,15 +69,15 @@
 
                 @*<div class="collapse navbar-toggleable" id="mainNavbarCollapse">
         <button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#mainNavbarCollapse">
-            &#9776;
+            &#9776; nav-pills nav-justified
         </button>*@
 
-                <ul class="navbar-nav nav nav-pills nav-justified">
+                <ul class="navbar-nav nav ">
                     <li class="nav-item" id="main">
 
                         <img src="~/Images/icon-home.PNG" class="home-icon" />
                         @*<i class="fa fa-home"></i>*@
-                        <a class="nav-link active" href=""> @Html.ActionLink("Home","Index")</a>
+                        <a class="nav-link active" href=""> @Html.ActionLink("Home", "Index")</a>
                     </li>
                     <li class="nav-item">
                         <img src="~/Images/icon2.PNG" />
@@ -104,7 +116,7 @@
             <div class="wrapper wrapper-under-sidenav">
                 @*video *@ 
 
-                <div id="one" class="video">
+                <div id="one" class="video meteo-video">
                     <video class="rounded" width="300" height="290" controls>
                         <source src="~/Images/video.mp4" type="video/mp4" />
                     </video>
