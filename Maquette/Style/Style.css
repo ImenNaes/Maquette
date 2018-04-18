@@ -32,6 +32,7 @@ table {
     width: 244px;
     height: 200px;
     margin-left: -7px;
+    margin-top: 16%;
 }
 
 .Day {
@@ -46,18 +47,17 @@ td {
     font-size: 24px;
     font-weight: bold;
     color: #dd5555;
-    position: absolute;
-    top: 87% !important;
+    position: sticky;
+    top: 73% !important;
 }
 
 #btnPrev {
-    margin-left: 4%;
+    margin-left: 19%;
 }
 
 #btnNext {
-    margin-left: 12%;
+    margin-left: 51%;
 }
-
 
 
 
@@ -132,6 +132,22 @@ audio {
     margin-left: 20px;
 }
 
+nav.navbar.navbar-expand-sm {
+    background-color: #ffffff;
+}
+
+a.nav-link.active {
+    background-color: transparent !important;
+    color: #a9a6a6 !important;
+}
+
+
+
+li a {
+    color: #a9a6a6;
+}
+
+
 .navbar-nav{
     padding-left: 10% !important;
 }
@@ -204,60 +220,131 @@ audio {
         padding-top: 9px;
     }
 
-.form {
+.form-search {
     background-color: #ffffff;
     width: 36%;
     margin-top: 0px !important;
 }
 
-.son {
-    background-color: #ffffff;
+@media sreen and (max-width: 1079px) {
+    .form-search {
+        width: 257px !important;
+    }
+
+    input.form-control-search.form-control {
+        padding-right: 10% !important;
+    }
+
+    .form-control {
+        padding-right: 0.75rem;
+    }
+
+    .form-search .row {
+        padding-right: 45%;
+    }
+
+    button.btn.btn-danger.btn-search {
+        margin-left: -17% !important;
+        width: 66% !important;
+    }
 }
 
-.col-4 {
-    margin-right: 47px;
-}
 
-.btn-danger {
+    .son {
+        background-color: #ffffff;
+    }
+
+    .col-4 {
+        margin-right: 47px;
+    }
+
+.btn-danger.btn-search {
     width: 100px;
+    margin-left: -17% !important;
 }
 
-.form-control {
+    /*.form-control {
     padding-right: 18.75rem;
+}*/
+
+    .form-control, .check {
+        background-color: #ebebeb;
+    }
+
+    .p1 {
+        font-weight: bold;
+        font-size: 16px;
+        margin-left: 20px;
+        color: #dd5555;
+    }
+
+    .p2 {
+        font-size: 14px;
+        font-weight: bold;
+        margin-left: 20px;
+    }
+
+    .video {
+        margin-top: -48px;
+    }
+
+    video {
+        margin-bottom: -20%;
+    }
+
+    .row {
+        margin-left: -12px;
+        margin-right: -151px;
+    }
+
+    .wrapper-under-sidenav {
+        margin-top: 27px;
+        margin-left: -18px;
+        margin-right: -28px;
+    }
+
+
+@media sreen and (max-width: 881px) {
+    .son {
+        background-color: transparent !important;
+    }
+
+    /*.form-search {
+        width: 100%;
+        margin-top: 30px !important;
+    }*/
 }
 
-.form-control, .check {
-    background-color: #ebebeb;
+@media screen and (max-width: 866px) {
+    .form-search {
+        width: 100%;
+        margin-top: 30px !important;
+    }
+
+    .son {
+        width: 120%;
+    }
+
 }
 
-.p1 {
-    font-weight: bold;
-    font-size: 16px;
-    margin-left: 20px;
-    color: #dd5555;
+@media screen and (max-width: 690px) {
+    .form-search {
+        width: 100%;
+        margin-top: 30px !important;
+    }
+
+    .son {
+        width: 120%;
+    }
+
 }
 
-.p2 {
-    font-size: 14px;
-    font-weight: bold;
-    margin-left: 20px;
-}
+@media screen and (max-width: 350px) {
 
-.video {
-    margin-top: -48px;
-}
-
-video {
-    margin-bottom: -20%;
-}
-
-.row {
-    margin-left: -12px;
-    margin-right: -151px;
-}
-
-.wrapper-under-sidenav {
-    margin-top: 27px;
-    margin-left: -18px;
-    margin-right: -28px;
+    .son {
+        margin-left: -8px;
+        width: 62%;
+        height: 170px;
+        margin-bottom: 100px !important;
+    }
 }

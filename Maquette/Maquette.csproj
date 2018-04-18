@@ -339,13 +339,12 @@
     <Content Include="Scripts\popper.js.map" />
     <Content Include="Scripts\popper-utils.min.js.map" />
     <Content Include="Scripts\popper-utils.js.map" />
-    <Content Include="Views\Home\Parameters.cshtml" />
-    <Content Include="Views\Home\Messages.cshtml" />
-    <Content Include="Views\Home\Gallery.cshtml" />
     <Content Include="Views\Home\Music.cshtml" />
     <Content Include="Views\Home\Location.cshtml" />
-    <Content Include="Views\Home\Parameters1.cshtml" />
     <Content Include="Views\Home\Message.cshtml" />
+    <Content Include="Views\Home\Search.cshtml" />
+    <Content Include="Views\Home\Galleries.cshtml" />
+    <Content Include="Views\Home\Settings.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

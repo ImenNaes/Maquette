@@ -52,43 +52,52 @@
         @*Navbar on the top and the rest on bottom*@
         <div id="two">
             @*NAVBAR*@
-            <nav class="navbar navbar-expand-sm bg-light navbar-light">
-                <ul class="navbar-nav">
+
+            <nav class="navbar navbar-expand-sm ">
+
+                @*<div class="collapse navbar-toggleable" id="mainNavbarCollapse">
+        <button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#mainNavbarCollapse">
+            &#9776;
+        </button>*@
+
+                <ul class="navbar-nav nav nav-pills nav-justified">
                     <li class="nav-item" id="main">
 
                         <img src="~/Images/icon-home.PNG" class="home-icon" />
                         @*<i class="fa fa-home"></i>*@
-                        <a class="nav-link active" href="~/Views/Home/Index.cshtml">Home</a>
+                        <a class="nav-link active" href=""> @Html.ActionLink("Home","Index")</a>
                     </li>
                     <li class="nav-item">
                         <img src="~/Images/icon2.PNG" />
-                        <a class="nav-link" href="~/Views/Home/Gallery.cshtml">Gallerie</a>
+                        <a class="nav-link" href="">@Html.ActionLink("Gallerie", "Galleries")</a>
                     </li>
                     <li class="nav-item">
 
                         <img src="~/Images/icon1.PNG" />
-                        <a class="nav-link" href="~/Views/Home/Messages.cshtml">Message</a>
+                        <a class="nav-link" href="">@Html.ActionLink("Message", "Message")</a>
                     </li>
                     <li class="nav-item">
 
                         <img src="~/Images/icon3.PNG" />
-                        <a class="nav-link" href="~/Views/Home/Music.cshtml">Music</a>
+                        <a class="nav-link" href="">@Html.ActionLink("Music", "Music")</a>
                     </li>
                     <li class="nav-item">
 
                         <img src="~/Images/icon-search.PNG" />
-                        <a class="nav-link" href="~/Views/Home/Search.cshtml">Search</a>
+                        <a class="nav-link" href="">@Html.ActionLink("Search", "Search")</a>
                     </li>
                     <li class="nav-item">
 
                         <img src="~/Images/icon4.PNG" />
-                        <a class="nav-link" href="~/Views/Home/Parameters.cshtml">Settings</a>
+                        <a class="nav-link" href="">@Html.ActionLink("Settings", "Settings")</a>
                     </li>
                     <li class="nav-item">
                         <img src="~/Images/icon5.PNG" />
-                        <a class="nav-link" href="~/Views/Home/Location.cshtml">Location</a>
+                        <a class="nav-link" href="">@Html.ActionLink("Location", "Location")</a>
                     </li>
+
                 </ul>
+                @*</div>*@
             </nav>
 
             @*Wrapper contains video and weather and Amesterdam*@ 
@@ -144,14 +153,15 @@
             @*volume and search form*@
             <div class="wrapper wrapper-footer">
                 @*Image with Volume*@
-                <div id="one" class="son">
+                <div id="one" class="son container-fluid">
                     <form class="form-inline">
                         <div class="form-group">
                             <img src="~/Images/Photo.PNG" />
                             @* <input type="password" id="inputPassword4" class="form-control mx-sm-3" aria-describedby="passwordHelpInline">*@
-                            <small id="passwordHelpInline" class="text-muted">
+                            <small id="passwordHelpInline container" class="text-muted">
                                 <p class="p1">Ceef mij maar amesterdam</p>
                                 <p class="p2">Johnny jordaan</p>
+                                
                                 <audio controls="controls">
                                     <source src="~/Images/ASP.mp3" type="audio/mpeg" />
                                 </audio>
@@ -162,8 +172,8 @@
 
 
                 @*Search form*@
-                <div id="two" class="form">
-                    <input type="search" class="form-control form-control" placeholder="Find your city place" />
+                <div id="two" class="form-search">
+                    <input type="search" class="form-control-search form-control" placeholder="Find your city place" />
                     <div class="row">
 
                         <div class="checkbox col-4">
@@ -172,7 +182,7 @@
                             </label>
                         </div>
                         <div class="col-4">
-                            <button type="submit" value="search" class="btn btn-danger">Search</button>
+                            <button type="submit" value="search" class="btn btn-danger btn-search">Search</button>
                         </div>
                     </div>
                 </div>

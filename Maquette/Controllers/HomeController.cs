@@ -27,21 +27,12 @@ namespace Maquette.Controllers
             return View();
         }
 
-        public ActionResult Location()
-        {
-            ViewBag.Message = "Your application description page.";
-
-            return View();
-        }
-
         public ActionResult Music()
         {
-            ViewBag.Message = "Your application description page.";
-
             return View();
         }
 
-        public ActionResult Gallery()
+        public ActionResult Location()
         {
             ViewBag.Message = "Your application description page.";
 
@@ -50,17 +41,34 @@ namespace Maquette.Controllers
 
         public ActionResult Message()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "Your contact page.";
 
             return View();
         }
 
-        public ActionResult Parameters()
+        public ActionResult Search()
+        {
+            return View();
+        }
+
+        public ActionResult Galleries()
         {
             ViewBag.Message = "Your application description page.";
 
             return View();
         }
+
+        public ActionResult Settings()
+        {
+            ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
+
+
+
+
+
 
 
 
